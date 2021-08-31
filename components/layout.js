@@ -53,7 +53,7 @@ const Layout = ({ title, description, children, className, cover }) => {
       <a href="https://melkat.games" className={cx.headerLink}>
         <h1 className={cx.header}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="./melanie.gif" className={cx.logo} alt="pixelated 3d model of melanie spinning around in circles and getting dizzy" />
+          <img src="./logo.gif" className={cx.logo} alt="pixelated 3d model of melanie spinning around in circles and getting dizzy" />
           <span className={cx.headerSpan}>{'melkat.games'}</span>
         </h1>
       </a>
