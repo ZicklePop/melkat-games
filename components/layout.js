@@ -60,7 +60,8 @@ const Layout = ({ title, description, children, className, cover }) => {
       {children}
       <footer className={cx.footer}>
         <p>
-          {'an attempt at game dev by '}
+          {'an attempt at game dev by'}
+          <br />
           <a href="https://melaniekat.com/">melanie kat</a>
           {' <3'}
         </p>
